@@ -1,2 +1,3 @@
-# minecraft-easylife-datapack
+# mesd
+##-minecraft-easysurvival-datapack
 minecraft datapack
