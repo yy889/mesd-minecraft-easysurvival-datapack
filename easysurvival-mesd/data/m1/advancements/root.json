@@ -1,0 +1,27 @@
+{
+	"parent": "m1:a",
+	"display": {
+		"icon": {
+			"item": "minecraft:coal"
+		},
+		"title": "1",
+		"description": "1",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"get_coal":{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items":["minecraft:coal"],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

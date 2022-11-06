@@ -1,0 +1,14 @@
+{
+	"type": "crafting_shapeless", 
+	"ingredients": [
+		{
+			"tag": "m1:woods"
+		},
+		{
+			"item": "minecraft:kelp"
+		}
+	],
+	"result": {
+		"item": "minecraft:emerald_block"
+	}
+}

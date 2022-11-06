@@ -1,0 +1,17 @@
+{
+	"type": "crafting_shaped",
+	"pattern":[
+		"   ",
+		"   ",
+		"*  "
+	],
+	"key":{
+		"*":{
+			"tag": "m1:woods"
+		}
+	},
+	"result":{
+		"item": "minecraft:oak_planks",
+		"count": 64
+	}
+}

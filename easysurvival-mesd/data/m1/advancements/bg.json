@@ -1,0 +1,33 @@
+{
+    "parent": "m1:a",
+	"display": {
+		"icon": {
+			"item": "minecraft:coal"
+		},
+		"title": "1",
+		"description": "1",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+    },
+    "criteria": {
+        "under":{
+             "trigger": "minecraft:location",
+            "conditions": {
+                "position": {
+                    "y":{
+                        "max": 20,
+                        "min":4
+                    }
+                }
+            }
+        },
+        "plant":{
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:oak_door"
+            }
+        }
+    }
+}
